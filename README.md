@@ -83,18 +83,17 @@ The Library Management System (LMS) is a software application designed to stream
    - DELETE /api/lendings/{id}
 
 ## Contributors
-- [Your Name]
-
-## License
-This project is licensed under the [MIT License](link-to-license).
+- Amritesh Indal: Designed the architecture of the Library Management System. Implemented Book Management System. 
+- Arjun Kshirsagar: Implemented Patron Management System and added loggers for all CRUD operations
+- Harsh Kumar: Implemented Lending Management System and Handled Exceptions 
+- Ishita: Implemented Book Management System
+- Medha Shree: Implemented Book Management System
+- Bhavya Jain: Lavde ka kuch nhi kiya
 
 ## Acknowledgments
-- Special thanks to [Any Acknowledgments if applicable]. 
-
-## Contact
-For any inquiries or support, please contact [Your Email]. 
+- Special thanks to Mr. Deepak Kasera. 
 
 ## Conclusion
 The Library Management System is a robust and efficient solution for managing library operations. With its user-friendly interface and comprehensive features, it enhances the efficiency and effectiveness of library management processes.
 
-*Documentation* o
+
