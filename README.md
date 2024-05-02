@@ -58,29 +58,27 @@ The Library Management System (LMS) is a software application designed to stream
 
 ## API Endpoints
 1. *Books:*
-   - GET /books
-   - GET /books/title/{title}
-   - GET /books/author/{name}
-   - GET /books/genre/{genre}
-   - POST /api/books/
-   - PUT /api/books/{id}
-   - DELETE /api/books/{id}
-   - GET /api/books/search?title={title}&author={author}&genre={genre}
+   - GET /books/ : Get List of All Books
+   - GET /books/{id} : Get a Single Book
+   - GET /books/title/{title} : Search Books By Title 
+   - GET /books/author/{name} : Search Books By Author Name
+   - GET /books/genre/{genre} : Search Books By Genre
+   - POST /api/books/ : Create a New Book
+   - PATCH /api/books/{id} : Update a new Book
+   - DELETE /api/books/{id} : Delete a new Book
 
 2. *Patrons:*
-   - GET /api/patrons
-   - GET /api/patrons/{id}
-   - POST /api/patrons
-   - PUT /api/patrons/{id}
-   - DELETE /api/patrons/{id}
-   - GET /api/patrons/{id}/books
+   - GET /api/patrons : Get all Patrons
+   - GET /api/patrons/{id} : Get a Single Patron
+   - PATCH /api/patrons/{id} : Update Patron Details
+   - DELETE /api/patrons/{id} : Delete a Single Patron
 
 3. *Lendings:*
-   - GET /api/lendings
-   - GET /api/lendings/{id}
-   - POST /api/lendings
-   - PUT /api/lendings/{id}
-   - DELETE /api/lendings/{id}
+   - GET /api/lendings/ : Get all Lendings
+   - GET /api/lendings/{id} : Get a single Lending
+   - POST /api/lendings/ : Create a Lending 
+   - PATCH /api/lendings/{id}: Update a Lending
+   - DELETE /api/lendings/{id} : Delete a Lending
 
 ## Contributors
 - Amritesh Indal: Designed the architecture of the Library Management System. Implemented Book Management System. 
@@ -88,7 +86,7 @@ The Library Management System (LMS) is a software application designed to stream
 - Harsh Kumar: Implemented Lending Management System and Handled Exceptions 
 - Ishita: Implemented Book Management System
 - Medha Shree: Implemented Book Management System
-- Bhavya Jain: Lavde ka kuch nhi kiya
+- Bhavya Jain: Implemented Lending Management System. 
 
 ## Acknowledgments
 - Special thanks to Mr. Deepak Kasera. 
